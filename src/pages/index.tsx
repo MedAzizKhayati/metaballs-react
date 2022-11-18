@@ -1,7 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { useState } from "react";
 import MetaballsShader from "../components/ThreeCanvas/ShaderPlanes/MetaballsShader";
-// import ShaderSidebar from "../components/ThreeCanvas/ShaderSiderbar";
 export default function App() {
   const [ballsLength, setBallsLength] = useState(7);
   return (
@@ -15,7 +14,7 @@ export default function App() {
         style={{ maxWidth: "min(90%, 550px)" }}
         className="bg-black/10 absolute gap-5 shadow-2xl flex-col p-5 text-white rounded-2xl backdrop-blur-lg flex items-center"
       >
-        <h1 className="text-3xl text-bold underline">Instructions</h1>
+        <h1 className="text-3xl text-bold underline">INSTRUCTIONS</h1>
         <ul className="text-sm md:text-base">
           <li>
             ○ This is a metaballs shader made with react-three-fiber and
